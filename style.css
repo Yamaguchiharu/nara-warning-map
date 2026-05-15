@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 320px;
+  min-width: 300px;
+  max-width: 400px;
+  padding: 12px;
+  border-right: 1px solid #ccc;
+  overflow-y: auto;
+}
+
+#map {
+  flex: 1;
+  background: white;
+}
+
+
+.area-item {
+  margin-bottom: 10px;
+}
+
+.area-item div:first-child {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.area-item label {
+  margin-right: 8px;
+  font-size: 13px;
+}
+
+
+.group-block {
+  margin-bottom: 15px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.group-block h4 {
+  margin: 5px 0;
+}
